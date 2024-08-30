@@ -11,7 +11,7 @@ function Input(){
             var x = (ev.target.input_value.value);
             let randomsito = (Math.floor(Math.random() * (10 - 1)) + 1); 
 
-            if(x === randomsito){
+            if(x == randomsito){
                 alert('Ganaste!')
             }else{
                 alert(`Eres una basura el numero era ${randomsito}`)
